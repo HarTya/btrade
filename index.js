@@ -18,7 +18,7 @@ function buttonMessageOptions(callback_query_data) {
         return {
             parse_mode: 'Markdown', reply_markup: JSON.stringify({
                 inline_keyboard: [
-                    [{ text: 'Приобрести 💸 Канал + Сигналы 💸', url: `tg://user?id=${process.env.ADMIN_ID}` }]
+                    [{ text: 'Приобрести 💸 Канал + Сигналы 💸', url: `https://t.me/${process.env.ADMIN_USERNAME}` }]
                 ]
             })
         }
@@ -26,7 +26,7 @@ function buttonMessageOptions(callback_query_data) {
         return {
             parse_mode: 'Markdown', reply_markup: JSON.stringify({
                 inline_keyboard: [
-                    [{ text: 'Приобрести 🤝 VIP Тариф 🤝', url: `tg://user?id=${process.env.ADMIN_ID}` }]
+                    [{ text: 'Приобрести 🤝 VIP Тариф 🤝', url: `https://t.me/${process.env.ADMIN_USERNAME}` }]
                 ]
             })
         }
@@ -34,7 +34,7 @@ function buttonMessageOptions(callback_query_data) {
         return {
             parse_mode: 'Markdown', reply_markup: JSON.stringify({
                 inline_keyboard: [
-                    [{ text: 'Приобрести 👑 Личное Ведение 👑', url: `tg://user?id=${process.env.ADMIN_ID}` }]
+                    [{ text: 'Приобрести 👑 Личное Ведение 👑', url: `https://t.me/${process.env.ADMIN_USERNAME}` }]
                 ]
             })
         }
